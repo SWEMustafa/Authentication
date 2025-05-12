@@ -39,7 +39,7 @@ export default function Login() {
   return (
     <div className="container mt-3">
       {/* Top-of-page heading */}
-      <h3 className="text-center">SimpliFolio</h3>
+      <h3 className="text-center">Login</h3>
     <div className="d-flex align-items-center justify-content-center" style={{ minHeight: "100vh" }}>
       <div className="w-100" style={{ maxWidth: "400px" }}>
         <Card>
