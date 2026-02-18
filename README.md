@@ -1,40 +1,61 @@
 Authentication Module
 
+
 What Is It?
 This is an athentication template designed for React applications.
 
+
 It connects your frontend directly to Google's Firebase infrastructure to handle identity management securely. It is designed to be dropped into new projects to instantly provide user management capabilities.
+
 
 Tech Stack
 Frontend Framework:
 
+
 React 18 (Vite): Uses the latest React features for speed and modularity.
+
 
 React Router v7: Manages navigation and protects "private" pages from being accessed by logged-out users.
 
+
 Backend / Service:
+
 
 Firebase Authentication: Google’s backend-as-a-service that handles the actual storage of users and passwords.
 
+
 UI / Styling:
+
 
 Bootstrap 5: Provides the visual components for login forms and dashboards.
 
+
 Quality Assurance:
+
 
 Vitest: Runs automated tests to ensure login/signup logic doesn't break.
 
+
 What It Does
+
+
 When integrated, this module manages the entire user lifecycle:
+
 
 Session Guard: It wraps your application in an "Auth Provider" that tracks if a user is logged in or out across the entire site.
 
+
 Gatekeeper: If a user tries to access a dashboard without logging in, the PrivateRoute component intercepts them and kicks them back to the login screen.
+
 
 Self-Service: It allows users to reset their own passwords and verify their email addresses without admin intervention.
 
+
 How to Run It
+
+
 FOR PROPER SETUP, YOU WILL NEED A FIREBASE PROJECT ALREADY CREATED.
+
 
 Get the Code:
 Clone this repository to your local machine.
